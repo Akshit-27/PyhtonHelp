@@ -1,0 +1,14 @@
+========================================================================================
+GIT  & GITHUB HELP 
+========================================================================================
+
+
+git status --> Shows the current status of the repo
+git add . --> add the the updated code to the staged level 
+git commit -m "Verison 1" --> updated the code to git level
+
+git branch -M main --> creates a branch main
+git remote add origin git@github.com:Akshit-27/PyhtonHelp.git --> Link you git to your github repo
+
+git push -u origin main --> push your code to the main github repo 
+
