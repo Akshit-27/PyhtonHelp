@@ -7,6 +7,9 @@ git status --> Shows the current status of the repo
 git add . --> add the the updated code to the staged level 
 git commit -m "Verison 1" --> updated the code to git level
 
+go to github & create a repo there. You can use the command mentioned there once the repo is created.
+
+
 git branch -M main --> creates a branch main
 git remote add origin git@github.com:Akshit-27/PyhtonHelp.git --> Link you git to your github repo
 
