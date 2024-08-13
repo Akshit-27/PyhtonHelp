@@ -15,3 +15,8 @@ git remote add origin git@github.com:Akshit-27/PyhtonHelp.git --> Link you git t
 
 git push -u origin main --> push your code to the main github repo 
 
+git diff  --> helps to check th diff between all the files in the local file & commited files
+git diff <file_name> --> helps to check the diff between the commited files & the local files. 
+git diff -staged <file_name> --> helps to check the diff between the commited files & the staged files 
+
+git reset <file_name> --> to unstage any file
