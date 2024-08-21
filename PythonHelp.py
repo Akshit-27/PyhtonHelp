@@ -83,7 +83,7 @@ else:
     print("Negative Number")
 print("----------------------------------------------------------------")
 # Assignment for Operators & Conditional Statements
-
+#
 # num1= float(input("Enter num1"))
 # num2= float(input("Enter num2"))
 # operation = input("Enter + or - or * or / or // or % or **")
@@ -218,3 +218,33 @@ print(lst)
 even = [z**2 for z in range(20) if z%2==0 ]
 print("Even List : " ,even)
 print("--------------------------------------------------------------- -")
+
+
+### Dictionary In Python
+Dic1 = {}
+dic1 = dict()
+print(type(Dic1))
+print(type(dic1))
+
+emp = {"Name":"Akshit","Age":"24","Gender":"Male"}
+print(emp)
+print(emp.keys())
+print(emp.values())
+print(emp.items())
+
+
+# to make a copy of a dictionary
+emp1 = emp
+print("EMP",emp)
+print("EMP1",emp1)
+
+emp["Age"]=10
+
+print("EMP",emp)
+print("EMP1",emp1)
+
+#Copy a dict
+emp_new = emp.copy()
+emp["Age"]=25
+print("EMP",emp)
+print("EMP_NEW",emp_new)
