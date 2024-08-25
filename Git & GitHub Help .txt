@@ -20,3 +20,5 @@ git diff <file_name> --> helps to check the diff between the commited files & th
 git diff -staged <file_name> --> helps to check the diff between the commited files & the staged files 
 
 git reset <file_name> --> to unstage any file
+
+git log --> used to show all the commits done 
