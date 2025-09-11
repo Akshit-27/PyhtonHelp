@@ -9,14 +9,11 @@ items = [
 
 myCart = []
 
-
 def show_menu():
     """This function displays all the available items """
     def get_item_name(item):
         return item['name']
-
     item_name=list(map(get_item_name,items))
-
     for names in item_name:
         print(names)
 

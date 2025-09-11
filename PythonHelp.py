@@ -362,3 +362,16 @@ import time
 print(time.time())
 time.sleep(5)
 print(time.time())
+
+print("-----------------------Read Complete file-----------------------")
+with open('File1.txt','r')as file:
+    content=file.read()
+print(content)
+
+print("-----------------------Read file line by line-----------------------")
+with open('File1.txt','r')as file:
+    for line in file:
+        print(line)
+
+
+

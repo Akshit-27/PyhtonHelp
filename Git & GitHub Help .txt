@@ -22,3 +22,31 @@ git diff -staged <file_name> --> helps to check the diff between the commited fi
 git reset <file_name> --> to unstage any file
 
 git log --> used to show all the commits done 
+
+
+
+------------------------------------------------------------------------------
+🔧 Repo Setup 
+→ git init – Start a new Git repo 
+→ git clone <url> – Copy a remote project 
+→ git config – Set up your identity 
+ 
+📝 Staging & Committing 
+→ git status – See what’s changed 
+→ git add . – Stage everything 
+→ git commit -m "message" – Save with a label 
+ 
+🌿 Branching 
+→ git branch – List or create branches 
+→ git checkout – Switch branches 
+→ git merge – Combine changes 
+ 
+🌐 Remote Workflows 
+→ git push – Upload to GitHub 
+→ git pull – Sync from the cloud 
+→ git remote – Link to remotes 
+ 
+🧽 Fixing Mistakes 
+→ git reset – Unstage files 
+→ git revert – Undo a commit safely 
+→ git stash – Save progress for later 
